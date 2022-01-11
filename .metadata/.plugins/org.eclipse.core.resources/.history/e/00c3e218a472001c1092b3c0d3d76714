@@ -1,0 +1,19 @@
+package edu.web.model;
+
+public class Member {
+
+	
+	private String memberId;
+	private String memberPassword;
+	private String memberEmail;
+	
+	public Member(String memberId, String memberPassword, String memberEmail) {
+		super();
+		this.memberId = memberId;
+		this.memberPassword = memberPassword;
+		this.memberEmail = memberEmail;
+	}
+	
+	
+	
+}

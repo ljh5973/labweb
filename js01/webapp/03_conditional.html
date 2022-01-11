@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>JavsScript</title>
+	</head>
+	<body>
+	
+	<h1>JavaScript 조건문</h1>
+	<input type="number" id="number_input" placeholder="정수 입력" />
+	<button onclick="checkEvenOrOdd()">확인</button>
+	<div id="result"></div>	
+	<script>
+		function checkEvenOrOdd(){
+			var number=document.getElementById("number_input");
+			var result=document.getElementById("result");
+		     
+            if(number.value%2){
+                result.innerHTML="짝수입니다.";
+            }else{
+                result.innerHTML="홀수 입니다.";
+            }
+			
+		}
+	</script>
+	</body>
+</html>

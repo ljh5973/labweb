@@ -1,0 +1,30 @@
+
+1월 10, 2022 10:23:30.666 NEW SESSION
+1월 10, 2022 10:23:30.666 [10460:21628:0110/102330.664:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Invalid credentials (credentials rejected by client).
+1월 10, 2022 10:23:33.680 [10460:14432:0110/102333.679:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+1월 10, 2022 10:23:33.680 [10460:14432:0110/102333.679:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+1월 10, 2022 10:23:33.680 [10460:14432:0110/102333.679:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+1월 10, 2022 10:23:33.681 [10460:14432:0110/102333.680:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+1월 10, 2022 10:23:33.685 [10460:21628:0110/102333.685:ERROR:device_event_log_impl.cc(214)] [10:23:33.684] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+1월 10, 2022 10:48:58.832 [10460:21628:0110/104858.831:ERROR:device_event_log_impl.cc(214)] [10:48:58.832] USB: usb_service_win.cc:261 Failed to get device driver name: 요소가 없습니다. (0x490)
+1월 10, 2022 13:41:57.543 [10460:14760:0110/134157.542:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+1월 10, 2022 16:50:17.11 [10460:21628:0110/165017.010:ERROR:interface_endpoint_client.cc(658)] Message 6276300 rejected by interface blink.mojom.FrameWidgetHost
+1월 10, 2022 16:50:17.89 [10460:21628:0110/165017.089:ERROR:interface_endpoint_client.cc(658)] Message 6276300 rejected by interface blink.mojom.FrameWidgetHost
+1월 10, 2022 16:51:05.406 [10460:21628:0110/165105.406:ERROR:device_event_log_impl.cc(214)] [16:51:05.406] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+
+1월 11, 2022 10:11:07.970 NEW SESSION
+1월 11, 2022 10:11:07.970 [11332:1944:0111/101107.968:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+1월 11, 2022 10:11:07.970 [11332:1944:0111/101107.969:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+1월 11, 2022 10:11:07.971 [11332:1944:0111/101107.969:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+1월 11, 2022 10:11:07.971 [11332:1944:0111/101107.969:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+1월 11, 2022 10:11:07.981 [11332:11340:0111/101107.980:ERROR:device_event_log_impl.cc(214)] [10:11:07.980] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+1월 11, 2022 10:23:30.645 [11332:11340:0111/102330.645:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Invalid credentials (credentials rejected by client).
+1월 11, 2022 10:47:03.164 [11332:11340:0111/104703.163:ERROR:device_event_log_impl.cc(214)] [10:47:03.164] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+1월 11, 2022 11:15:19.585 [11332:11340:0111/111519.584:ERROR:interface_endpoint_client.cc(658)] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 11, 2022 15:15:05.464 [11332:11340:0111/151505.464:ERROR:device_event_log_impl.cc(214)] [15:15:05.465] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+1월 11, 2022 15:33:34.588 [11332:11340:0111/153334.588:ERROR:interface_endpoint_client.cc(658)] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 11, 2022 15:54:20.306 [11332:11340:0111/155420.306:ERROR:interface_endpoint_client.cc(658)] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 11, 2022 16:43:55.159 [11332:11340:0111/164355.159:ERROR:interface_endpoint_client.cc(658)] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 11, 2022 16:43:58.350 [11332:11340:0111/164358.349:ERROR:interface_endpoint_client.cc(658)] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 11, 2022 19:30:48.201 [11332:1412:0111/193048.201:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+1월 11, 2022 19:30:53.909 [11332:11340:0111/193053.909:ERROR:device_event_log_impl.cc(214)] [19:30:53.837] USB: usb_service_win.cc:261 Failed to get device driver name: 요소가 없습니다. (0x490)

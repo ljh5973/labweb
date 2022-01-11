@@ -1,0 +1,38 @@
+<%@page import="java.util.Date"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JSP 02</title>
+<style>
+/*
+	CSS comment
+ */
+</style>
+</head>
+<body>
+
+	<h1>JSP 소개</h1>
+	
+	<%
+	Date today = new Date();
+
+	%>
+	<h2>서버시간 <%= today.toString() %></h2>
+	
+	<script>
+	/* JavaScript block comment */
+	// Javascript block comment
+	</script>
+</body>
+</html>
+
+<%-- JSP 주석--%>
+<%--
+Servlet : Server + Applet(웹 Server에서 실행되는 작은 어플리케이션)
+	- 자바 클래스
+	- 웹 서버가 요청을 받았을 때 요청을 처리하고 동적으로 HTML 문서를 생성할 수 있는 프로그램
+	- 웹 서버의 서블릿 컨테이너가 실행하는 자바 클래스.
+ --%>

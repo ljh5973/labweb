@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CSS Introduction</title>
+		
+		<style>
+		div{
+		border:2px dashed green;
+		padding:64px /* 테두리선과 안쪽 컨텐트 */
+		}
+
+		
+		</style>
+		
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+	<h1>CSS(Casting Style Sheet)</h1>
+	
+	<!-- 
+		CSS: 웹 페이지의 스타일을 설정.
+		CSS 적용 방법:
+		1. inline CS: HTML 태그에 style 속성에(attribute)의 property들을 설정.
+		2. internal (embedding) CSS: <head> 태그 안에서 메타 정보로 CSS 스타일을 설정.
+		3. externam CSS: 별도의 CSS 파일을 작성하고 HTML 파일에서 작성된 CSS 파일을 링크해서 설정.
+		
+		CSS를 적용하기 위한 영역:
+		1. <div> : block element 만듦.
+		2. <span> inline element 만듦
+		3. <header> , <footer> , <nav>, <section> .. :" HTML5 버전부터 생긴  block element를 만들어 주는 semantic tag.
+	 -->
+	 
+	 
+	 
+	 <h2>inline CSS</h2>
+	 <div style="border: 1px solid #777; padding: 16px; margin: 32px">
+	 	여기는 <span style="border:1px dotted red;"> division</span> 영역입니다.
+	 </div>
+	 
+	 <h2>internal CSS</h2>
+	 <div class="div1">
+		여기는 <span> division1 </span> 영역이에요	 
+	 </div>
+	 
+	  <div class="div1">
+		여기는 <span> division2 </span> 영역이에요
+		<p>
+			안녕안해요
+		</p>	 
+	 </div>
+	 
+	 
+	</body>
+</html>

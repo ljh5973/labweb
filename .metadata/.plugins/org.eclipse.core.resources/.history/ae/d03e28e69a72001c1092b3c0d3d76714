@@ -1,0 +1,37 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page trimDirectiveWhitespaces="true"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+
+<c:set var="colorValue" value="black">
+	<c:choose>
+		<c:when test="${colorValue eq 'r' }">
+			red
+		</c:when>
+		
+		<c:when test="${colorValue eq 'b' }">
+			blue
+		</c:when>
+		<c:when test="${colorVlaue eq 'g' }">
+			green
+		</c:when>
+	</c:choose>
+</c:set>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>JSTL</title>
+		<style>
+			span{
+			color: ${colorValue};
+			}
+		</style>
+	</head>
+	<body>
+	
+	<h1>JSTL choose tag</h1>
+	
+	<h2>사용자 이름: <span> ${param.userName }</span></h2>
+	</body>
+</html>

@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page trimDirectiveWhitespaces="true"%>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>JSP</title>
+	</head>
+	<body>
+	
+	<h1>게시판 글쓰기 결과 페이지</h1>
+	
+	<h2>scriptlet, expression</h2>
+	
+	<%
+	// form 에서 보낸 데이터 (요청 파라미터)의 한글을 제대로 처리하기
+	request.setCharacterEncoding("UTF-8");
+	%>
+	<div id="boardId">글 번호 <%= request.getParameter("boardId") %></div>
+	<div id="title">글 제목 <%= request.getParameter("title") %></div>
+	<div id="content">글 본문 <%= request.getParameter("content") %></div>
+	
+	</body>
+</html>

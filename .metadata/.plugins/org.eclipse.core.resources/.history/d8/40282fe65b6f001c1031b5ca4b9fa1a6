@@ -1,0 +1,32 @@
+<%@page import="java.util.Date"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JSP 02</title>
+<style>
+/*
+	CSS comment
+ */
+</style>
+</head>
+<body>
+
+	<h1>JSP 소개</h1>
+	
+	<%
+	Date today = new Date();
+
+	%>
+	<h2>서버시간 <%= today.toString() %></h2>
+	
+	<script>
+	/* JavaScript block comment */
+	// Javascript block comment
+	</script>
+</body>
+</html>
+
+<%-- JSP 주석--%>

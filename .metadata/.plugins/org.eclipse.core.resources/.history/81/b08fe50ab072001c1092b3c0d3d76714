@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page trimDirectiveWhitespaces="true"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>JSTL</title>
+	</head>
+	<body>
+	<h1>JSTL formatNumber 태그</h1>
+	
+	
+	<c:set var="number1" value="12345789.123456789"></c:set>
+	
+	${number1 <br>}
+	</body>
+</html>

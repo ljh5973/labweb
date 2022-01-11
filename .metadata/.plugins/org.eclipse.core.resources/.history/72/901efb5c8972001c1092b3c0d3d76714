@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page trimDirectiveWhitespaces="true"%>
+
+<%
+request.setCharacterEncoding("UTF-8");	//(한글 처리를 위해서)  POST 방식에서만 필요
+String color= request.getParameter("color");  // 요청 파라미터 color의 값을 읽음
+String colorValue="";
+if(color.equals("r")){
+	colorValue="red";
+}else if(color.equals("g")){
+	colorValue="green";
+}else if(color.equals("b")){
+	colorValue="blue"
+}
+%>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>JSTL</title>
+	</head>
+	<body>
+	
+	</body>
+</html>
