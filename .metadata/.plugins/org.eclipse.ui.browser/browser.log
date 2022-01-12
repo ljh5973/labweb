@@ -28,3 +28,6 @@
 1월 11, 2022 16:43:58.350 [11332:11340:0111/164358.349:ERROR:interface_endpoint_client.cc(658)] Message 0 rejected by interface blink.mojom.WidgetHost
 1월 11, 2022 19:30:48.201 [11332:1412:0111/193048.201:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
 1월 11, 2022 19:30:53.909 [11332:11340:0111/193053.909:ERROR:device_event_log_impl.cc(214)] [19:30:53.837] USB: usb_service_win.cc:261 Failed to get device driver name: 요소가 없습니다. (0x490)
+1월 11, 2022 23:11:47.571 [11332:1412:0111/231147.570:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+1월 11, 2022 23:11:47.571 [11332:8212:0111/231147.571:ERROR:get_updates_processor.cc(260)] PostClientToServerMessage() failed during GetUpdates with error 2
+1월 11, 2022 23:11:47.575 [11332:1412:0111/231147.575:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
