@@ -20,8 +20,13 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Date"/>
+		<item key="selection" value="team"/>
 		<list key="findhistory">
+			<item value="team"/>
+			<item value="mybatis"/>
+			<item value="action"/>
+			<item value="1.6"/>
+			<item value="main"/>
 			<item value="date"/>
 		</list>
 		<list key="replacehistory">

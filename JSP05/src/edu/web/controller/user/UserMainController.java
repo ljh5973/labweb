@@ -5,12 +5,11 @@ import javax.servlet.http.HttpServletResponse;
 
 import edu.web.controller.Action;
 
-public class UserMainController implements Action{
+public class UserMainController implements Action {
 
 	@Override
 	public String execute(HttpServletRequest request, HttpServletResponse response) {
-
-		
+		// TODO 
 		return "/WEB-INF/user/user-main.jsp";
 	}
 
