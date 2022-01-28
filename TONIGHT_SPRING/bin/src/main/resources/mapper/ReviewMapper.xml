@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="com.team5.review.mapper.ReviewMapper">
+  
+	<insert id="regist">
+		insert into review (r_pno, r_userId, starPoint, content)
+		values(#{r_pno}, #{r_userId}, #{starPoint}, #{content})
+	</insert>
+	
+	<select id="getTotal" resultType="int">
+		select count(*) as total 
+		from review
+		where r_pno = #{r_pno}
+	</select>
+  
+  	<select id="getList" resultType="ReviewVO">
+		<![CDATA[
+		select *
+		from (select @rownum:=@rownum+1 as rn, 
+					 p.*,
+		             case when gap <= 60 then '방금 전'
+						  when gap <= (60*24) then concat(truncate(gap/60, 0), '시간 전')
+						  else date_format(regdate, '%Y-%m-%d')
+						  end as timegap
+			  from (select *,
+						   timestampdiff(minute, updatedate, now()) as gap
+					from review
+					where r_pno = #{r_pno}
+					order by gap) p
+		      where (@rownum:=0)=0) a
+		 where rn > (#{cri.pageNum} - 1)*#{cri.amount} and rn <= #{cri.pageNum}*#{cri.amount}
+		]]>
+  	</select>
+  	
+  	<delete id="delete">
+  		delete from review where rno = #{rno}
+  	</delete>
+  	
+  	<update id="modify">
+  		update review
+  		set starPoint = #{starPoint},
+  			content = #{content},
+  			updatedate = now()
+  		where rno = #{rno}
+  	</update>
+  </mapper>

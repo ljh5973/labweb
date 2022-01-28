@@ -31,6 +31,10 @@
                     <div>
                         <input type="submit" value="로그인" />
                     </div>
+                    
+                    <div>
+                    	<input type="hidden" name="url" value="${url }"/>
+                    </div>
                 </form>
             </div>
         

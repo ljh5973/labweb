@@ -15,7 +15,6 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 --><tomcat-users version="1.0" xmlns="http://tomcat.apache.org/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://tomcat.apache.org/xml tomcat-users.xsd">
-<user password="tomcat" roles="manager-gui" username="tomcat"/>
 <!--
   By default, no user is included in the "manager-gui" role required
   to operate the "/manager/html" web application.  If you wish to use this app,
@@ -32,9 +31,10 @@
   application, do not forget to remove the <!.. ..> that surrounds them. You
   will also need to set the passwords to something appropriate.
 -->
+
 <!--
-  <user username="admin" password="<must-be-changed>" roles="manager-gui"/>
-  <user username="robot" password="<must-be-changed>" roles="manager-script"/>
+  <role rolename="mamager-gui"/>
+  <user username="admin" password="admin" roles="manager-gui"/>
 -->
 <!--
   The sample user and role entries below are intended for use with the
@@ -49,5 +49,7 @@
   <user username="tomcat" password="<must-be-changed>" roles="tomcat"/>
   <user username="both" password="<must-be-changed>" roles="tomcat,role1"/>
   <user username="role1" password="<must-be-changed>" roles="role1"/>
+  <role rolename="mamager-gui"/>
+  <user username="admin" password="admin" roles="manager-gui"/>
 -->
 </tomcat-users>

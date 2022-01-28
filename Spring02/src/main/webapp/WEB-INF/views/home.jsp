@@ -21,7 +21,9 @@
             <nav>
                 <ul>
                 <c:if test="${empty signInUserId}"> <%-- 로그인 되어 있지 않은 경우 --%>
+                
                     <li>
+                  
                         <a href="./user/register">회원 가입</a>
                     </li>
                     <li> <!-- TODO -->
@@ -30,6 +32,7 @@
                 </c:if>
                 <c:if test="${not empty signInUserId}"> <%-- 로그인 되어 있는 경우 --%>
                     <li>
+                    	<span>${signInUserId }</span>
                         <a href="./user/signout">로그아웃</a>
                     </li>
                 </c:if>

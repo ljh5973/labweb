@@ -23,8 +23,8 @@
         bno: 시퀀스 - 자동 입력, reg_date: 기본값 sysdate, view_cnt: 기본값 0, reply_cnt: 기본값 0
     -->
     <insert id="create">
-    INSERT INTO ${TABLE_BOARDS} (${COL_TITLE}, ${COL_CONTENT}, ${COL_USERID}) 
-    VALUES (#{title}, #{content}, #{userid})
+    INSERT INTO ${TABLE_BOARDS} (${COL_BNO},${COL_TITLE}, ${COL_CONTENT}, ${COL_USERID}) 
+    VALUES (bno_seq.nextval, #{title}, #{content}, #{userid})
     </insert>
     
     <!-- 게시글 수정: 해당 글 번호의 글 제목, 내용 수정. reg_date는 수정하는 서버 시간. -->
